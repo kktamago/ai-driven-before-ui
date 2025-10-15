@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { PrismaClient } from "@prisma/client";
+import { withOptimize } from "@prisma/extension-optimize";
+
+const prisma = new PrismaClient().$extends(
+  withOptimize({ apiKey: process.env.OPTIMIZE_API_KEY })
+)
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
