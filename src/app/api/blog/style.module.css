@@ -1,0 +1,17 @@
+/* 共通スタイル */
+
+.header { background: #fff; border-bottom: 1px solid #eee; }
+.headerInner { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 2rem; color: #2e7d32; }
+.nav { display: flex; gap: 1rem; }
+.navLink { color: #2e7d32; text-decoration: none; }
+.footer { background: #f5f5f5; text-align: center; padding: 1em 0; color: #888; }
+.postList { max-width: 900px; margin: 2em auto; }
+.postItem { background: #fff; border: 1px solid #eee; box-shadow: 0 2px 8px #eee; margin-bottom: 1em; padding: 1em; border-radius: 8px; }
+.postTitle { font-size: 1.2rem; color: #2e7d32; text-decoration: none; font-weight: bold; }
+.postMeta { color: #888; font-size: 0.9em; margin-bottom: 0.5em; }
+.postDesc { margin-top: 0.5em; }
+.postForm { max-width: 600px; margin: 2em auto; display: flex; flex-direction: column; gap: 1em; }
+.input, .textarea { width: 100%; padding: 0.5em; border: 1px solid #ccc; border-radius: 4px; }
+.button { background: #2e7d32; color: #fff; border: none; padding: 0.7em 1.5em; border-radius: 4px; cursor: pointer; }
+.postDetail { max-width: 700px; margin: 2em auto; background: #fff; border: 1px solid #eee; box-shadow: 0 2px 8px #eee; padding: 2em; border-radius: 8px; }
